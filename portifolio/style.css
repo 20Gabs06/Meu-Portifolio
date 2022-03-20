@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@font-face {
+    font-family: 'gabs';
+    src: url('fonts/04B_30__.TTF');
+    src: local('gabs'), local('gabs'), url('fonts/04B_30__.TTF') format('truetype');
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*config basica para titulos:
+
+    color: #F6FF4E;
+    font-family: 'gabs';
+
+*/
+
+
+/*
+---------------------RESPONSIVIDADE DO SITE:    ----------------------------------
+*/
+
+
+
+
+/*responsividade dos titulos dos porques*/
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 1000px) {
+    .titulos{
+        font-size: 3em;
+        padding: 10px 10px 20px 100px;
+    }
+    #trabalhos{
+        font-size: 3em;
+        text-align: center;
+        padding-top: 100px;
+    }
+    #gabs{
+        font-size: 7em;
+        padding: 100px 0px 0px 100px;
+
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+    .titulos{
+        font-size: 2.5em; 
+        padding: 10px 10px 20px 100px;
+    }
+    #trabalhos{
+        font-size: 2.5em;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #gabs{
+        font-size: 6em; 
+        padding: 100px 0px 0px 100px;
+    }
+   
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .titulos{
+        font-size: 2em;
+        
+        
+    }
+    #trabalhos{
+        font-size: 2em;
+        text-align: center;
+        padding-top: 100px;
+    }
+    #gabs{
+        font-size:4em;
+        text-align: center;
+        padding-top: 100px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .titulos{
+        font-size: 1.5em;
+        
+    }
+
+    #trabalhos{
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    /*titulo principal*/
+    #gabs{
+        font-size: 3em;
+        text-align: center;
+        padding-top:100px;
+
+        
+    }
+
+   .imgdiv{
+       width: 200px;
+       height: 100px;
+   }
+
+    
+}
+
+
+
+
+
+
+/*responsividade dos textos */
+
+
+
+@media only screen and (min-width: 1000px) {
+    .paragrafos{
+        font-size: 2em;
+        padding: 30px 10px 90px 100px;
+     
+        }
+        
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .paragrafos{
+        font-size: 1.7em; 
+        max-width: 500px ;
+        padding: 30px 10px 130px 100px;
+       
+    }
+
+  
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .paragrafos{
+        font-size: 1.3em;
+         max-width:400px ;
+         padding: 30px 0px 30px 0px;
+
+         
+    }
+
+    
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .paragrafos{
+        font-size: 1.5em;
+        max-width: 350px ;
+        
+    }
+
+    #coisas{
+     
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+/*responsividdade do background*/
+
+
+@media only screen and (min-width: 1260px) {
+    #bgtb{
+        height: 1560px;
+        
+       
+    }
+        
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1260px ) {
+    #bgtb{
+        height: 2000px;
+       
+    }
+        
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    #bgtb{
+    
+        height: 2300px;
+    }
+
+  
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    #bgtb{
+       
+        height: 2350px;
+    }
+    
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 414px) and (max-width: 480px) {
+    #bgtb{
+         height: 1400px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 413px) {
+    #bgtb{
+         height: 2100px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='750' preserveAspectRatio='none' viewBox='0 0 2560 750'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='2560' height='750' x='0' y='0' fill='rgba(9%2c 27%2c 46%2c 1)'%3e%3c/rect%3e%3cpath d='M1652.99 287.25 a15.35 15.35 0 1 0 30.7 0 a15.35 15.35 0 1 0 -30.7 0z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M896.31 438.67a69.89 69.89 0 1 0-122.08 68.09z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1070.65 198.77 a5.06 5.06 0 1 0 10.12 0 a5.06 5.06 0 1 0 -10.12 0z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M698.95 735.25a63.31 63.31 0 1 0 125.14 19.34z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1361.96 383.51L1427.79 383.51L1427.79 428.55L1361.96 428.55z' fill='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1431.58 366.47L1498.93 366.47L1498.93 433.82L1431.58 433.82z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M186.72 321.9 a63.95 63.95 0 1 0 127.9 0 a63.95 63.95 0 1 0 -127.9 0z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2385.63 488.51L2450.82 488.51L2450.82 528.86L2385.63 528.86z' fill='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2453.97 539.2 a15.21 15.21 0 1 0 30.42 0 a15.21 15.21 0 1 0 -30.42 0z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1485.62 745.61L1495.76 745.61L1495.76 755.75L1485.62 755.75z' fill='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M577.58 672.76 a46.56 46.56 0 1 0 93.12 0 a46.56 46.56 0 1 0 -93.12 0z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M333.72 302.59L363.44 302.59L363.44 332.31L333.72 332.31z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M348.21 716.4L378.25 716.4L378.25 746.44L348.21 746.44z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1140.29 402.55 a54.97 54.97 0 1 0 109.94 0 a54.97 54.97 0 1 0 -109.94 0z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1974.85 697.06L2036.2 697.06L2036.2 758.41L1974.85 758.41z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2402.87 53.97a66.72 66.72 0 1 0 118.48 61.4z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M437.87 90.4a65.41 65.41 0 1 0 127.18-30.68z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2182.55 461.25a18.55 18.55 0 1 0 34.23-14.3z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M790.07 200.86a13.01 13.01 0 1 0-15.86-20.62z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1027.61 583.86a17.45 17.45 0 1 0 13.18 32.31z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1823.31 513.84L1836 513.84L1836 530.25L1823.31 530.25z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M17.55 547.96 a72.16 72.16 0 1 0 144.32 0 a72.16 72.16 0 1 0 -144.32 0z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M523.73 208.6 a6.17 6.17 0 1 0 12.34 0 a6.17 6.17 0 1 0 -12.34 0z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M363.92 768.6a70.1 70.1 0 1 0 98.18-100.08z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2250.42 170.52L2295.96 170.52L2295.96 210.22L2250.42 210.22z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1236.16 502.03L1254.25 502.03L1254.25 520.12L1236.16 520.12z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1933.47 444.2L1996.17 444.2L1996.17 506.9L1933.47 506.9z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1193.52 478.05a32.08 32.08 0 1 0-8.81-63.55z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1786.37 628.83L1796.25 628.83L1796.25 638.71L1786.37 638.71z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1118.85 38.1L1156.68 38.1L1156.68 62.99L1118.85 62.99z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M515.78 59.68a50.36 50.36 0 1 0-92.31 40.3z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1635.26 511.27a30.16 30.16 0 1 0-31.89-51.2z' stroke='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M2352.64 304.07L2357.03 304.07L2357.03 354.8L2352.64 354.8z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1087.3 111.59a19.62 19.62 0 1 0 19.67-33.95z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M1154.71 167.96L1216.78 167.96L1216.78 230.03L1154.71 230.03z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M2343.95 559.25L2401.59 559.25L2401.59 587.2L2343.95 587.2z' fill='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1998.81 212.91L2012.2 212.91L2012.2 226.3L1998.81 226.3z' fill='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M556.28 0.71L586.51 0.71L586.51 23.1L556.28 23.1z' fill='rgba(255%2c 143%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1221 628.94L1222.96 628.94L1222.96 630.9L1221 630.9z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1839.53 345.78a37.2 37.2 0 1 0-72.69-15.85z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M54.2 597.9L112.18 597.9L112.18 655.88L54.2 655.88z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3cpath d='M660.67 289.14L684.32 289.14L684.32 312.79L660.67 312.79z' stroke='rgba(215%2c 227%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M575.35 99.59L594.01 99.59L594.01 118.25L575.35 118.25z' stroke='rgba(246%2c 255%2c 78%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='2560' height='750' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    height: 700px;
+    border-bottom: 4px solid #FF8F00  ;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center left ;
+   
+        
+}
+
+
+#gabs {
+    color: #F6FF4E;
+    font-family: 'gabs';
+    
+
+
+}
+
+#bgtb{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='2900' preserveAspectRatio='none' viewBox='0 0 2560 2900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1066%26quot%3b)' fill='none'%3e%3crect width='2560' height='2900' x='0' y='0' fill='rgba(14%2c 42%2c 71%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c1260.266C226.387%2c1202.243%2c318%2c925.012%2c526.03%2c818.518C770.397%2c693.422%2c1141.449%2c817.516%2c1301.117%2c594.2C1454.436%2c379.764%2c1324.314%2c71.198%2c1238.586%2c-178.082C1163.385%2c-396.752%2c996.165%2c-557.207%2c844.974%2c-732.174C693.559%2c-907.4%2c574.01%2c-1133.068%2c353.159%2c-1202.749C131.224%2c-1272.771%2c-99.815%2c-1165.966%2c-323.208%2c-1100.747C-546.946%2c-1035.428%2c-806.982%2c-1007.15%2c-949.239%2c-822.52C-1090.259%2c-639.496%2c-1052.465%2c-382.658%2c-1054.513%2c-151.616C-1056.316%2c51.72%2c-1009.418%2c241.256%2c-960.418%2c438.608C-899.876%2c682.446%2c-924.399%2c978.006%2c-733.49%2c1141.333C-541.388%2c1305.68%2c-244.894%2c1323.032%2c0%2c1260.266' fill='%23091b2e'%3e%3c/path%3e%3cpath d='M2560 3961.0789999999997C2747.723 3905.9120000000003 2882.577 3757.0209999999997 3064.5190000000002 3685.047 3308.59 3588.496 3638.308 3671.32 3805 3468.573 3968.864 3269.266 3898.725 2968.186 3864.12 2712.496 3829.2799999999997 2455.071 3786.183 2180.705 3605.446 1994.116 3427.786 1810.704 3152.953 1786.401 2905.612 1722.955 2666.891 1661.721 2424.175 1562.687 2187.188 1630.319 1949.5520000000001 1698.137 1762.336 1884.135 1623.787 2088.767 1494.823 2279.242 1472.259 2511.23 1436.868 2738.518 1401.054 2968.522 1350.799 3198.968 1416.13 3422.388 1487.472 3666.367 1590.571 3942.318 1820.5410000000002 4050.62 2049.808 4158.591 2316.863 4032.531 2560 3961.0789999999997' fill='%23133960'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1066'%3e%3crect width='2560' height='2900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    
+    background-size: cover;
+   
+}
+
+#trabalhos {
+    color:  #F6FF4E;
+    font-family: 'gabs';
+    
+   
+   
+
+}
+
+#projetos1{
+   
+    justify-content: space-around;
+    margin: 40px auto;
+    font-family: 'gabs';
+    
+    display:flex;
+    flex-wrap: wrap;
+    align-content:space-around ;
+    
+    
+    
+
+ 
+}
+
+img{
+    box-shadow: 5px 5px 15px 19px rgba(0, 0, 0, 0.062);
+}
+
+.proje{
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+    color: #F6FF4E;
+   
+    
+
+}
+#projetos2{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    padding-bottom: 150px;
+    border-bottom: 4px solid #FF8F00  ;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'gabs';
+}
+
+.proje2{
+    
+    border-radius: 12px;
+    
+    margin: auto;
+    color: #F6FF4E;
+   
+
+
+    
+}
+
+
+
+
+
+
+
+
+.titulos{
+    color: #F6FF4E;
+    font-family: 'gabs';
+   
+    
+
+    
+}
+
+.paragrafos{
+    color: #F6FF4E;
+    font-family: 'VT323', monospace;
+    
+  
+   
+    
+}
+
+#coisas{
+    border-bottom: 4px solid #FF8F00  ;
+    margin: 30px;
+   
+}
+
+footer {
+    background-color: #091B2E;
+     height: 80px;
+     text-align: center;
+     display: flex;
+    justify-content: space-evenly;
+    
+    background-size: cover;
+     
+   
+}
+
+.redes {
+ 
+ padding:20px;
+}
+
+

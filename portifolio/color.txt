@@ -1,0 +1,5 @@
+#D7E300 amarelo
+
+#0E2A47 azul esccuro
+
+#FF8F00 laranja
