@@ -237,7 +237,7 @@
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (min-width: 415px) and (max-width: 480px) {
+@media only screen and (min-width: 414.4px) and (max-width: 480px) {
     #bgtb{
          height: 1500px;
     }
@@ -245,17 +245,17 @@
     
 }
 
-@media only screen and (min-width: 306.3px) and (max-width: 414px) {
+@media only screen and (min-width: 300px) and (max-width: 414px) {
     #bgtb{
-         height: 1860px;
+         height: 1855px;
     }
 
     
 }
 
-@media only screen and (max-width: 306px) {
+@media only screen and (max-width: 305px) {
     #bgtb{
-         height: 2090px;
+         height: 2095px;
     }
 
     
