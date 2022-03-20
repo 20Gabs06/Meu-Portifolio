@@ -130,6 +130,7 @@
 @media only screen and (min-width: 1000px) {
     .paragrafos{
         font-size: 2em;
+        width:900px;
         padding: 30px 10px 90px 100px;
      
         }
@@ -137,7 +138,7 @@
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
     .paragrafos{
         font-size: 1.7em; 
         max-width: 500px ;
@@ -185,25 +186,27 @@
 /*responsividdade do background*/
 
 
-@media only screen and (min-width: 1260px) {
+@media only screen and (min-width: 1201px) {
     #bgtb{
-        height: 1560px;
+        height: 1590px;
         
        
     }
         
 }
 
-@media only screen and (min-width: 1000px) and (max-width: 1260px ) {
+@media only screen and (min-width: 1000px) and (max-width: 1200px ) {
     #bgtb{
-        height: 2000px;
+        height: 2150px;
        
     }
         
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+
+@media only screen and (min-width: 806px) and (max-width: 1000px) {
     #bgtb{
     
         height: 2300px;
@@ -213,28 +216,46 @@
 }
 
 
+@media only screen and (min-width: 767px) and (max-width: 806px) {
+    #bgtb{
+    
+        height: 2800px;
+    }
+
+  
+}
+
+
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 471px) and (max-width: 767px) {
     
     #bgtb{
        
-        height: 2350px;
+        height: 2300px;
     }
     
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (min-width: 414px) and (max-width: 480px) {
+@media only screen and (min-width: 415px) and (max-width: 470px) {
     #bgtb{
-         height: 1400px;
+         height: 1600px;
     }
 
     
 }
 
-@media only screen and (max-width: 413px) {
+@media only screen and (min-width: 301px) and (max-width: 414px) {
     #bgtb{
-         height: 2100px;
+         height: 1950px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 300px) {
+    #bgtb{
+         height: 2150px;
     }
 
     
