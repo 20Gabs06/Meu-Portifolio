@@ -227,7 +227,7 @@
 
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 471px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     
     #bgtb{
        
@@ -237,25 +237,25 @@
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (min-width: 415px) and (max-width: 470px) {
+@media only screen and (min-width: 415px) and (max-width: 480px) {
     #bgtb{
-         height: 1600px;
+         height: 1500px;
     }
 
     
 }
 
-@media only screen and (min-width: 301px) and (max-width: 414px) {
+@media only screen and (min-width: 306.3px) and (max-width: 414px) {
     #bgtb{
-         height: 1950px;
+         height: 1860px;
     }
 
     
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 306px) {
     #bgtb{
-         height: 2150px;
+         height: 2090px;
     }
 
     
