@@ -247,15 +247,15 @@
 
 @media only screen and (min-width: 300px) and (max-width: 414px) {
     #bgtb{
-         height: 1855px;
+         height: 1850px;
     }
 
     
 }
 
-@media only screen and (max-width: 305px) {
+@media only screen and (max-width: 299px) {
     #bgtb{
-         height: 2095px;
+         height: 2090px;
     }
 
     
